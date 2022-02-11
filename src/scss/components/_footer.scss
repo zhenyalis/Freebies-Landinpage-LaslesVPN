@@ -13,7 +13,8 @@
   &__title {
     margin-bottom: 30px;
     max-width: 340px;
-    font-size: 16px;
+    font-size:$sm-text;
+
     line-height: 30px;
     color: #4f5665;
     @include md {
@@ -40,26 +41,30 @@
   }
 }
 .product {
-  font-size: 16px;
+  font-size:$sm-text;
+
   line-height: 30px;
   color: #4f5665;
 }
 .engage {
   margin-left: 100px;
-  font-size: 16px;
+  font-size:$sm-text;
+
   line-height: 30px;
   color: #4f5665;
 }
 .earnmoney_item {
   margin-left: 120px;
-  font-size: 16px;
+  font-size:$sm-text;
+
   line-height: 30px;
   color: #4f5665;
 }
 .desc {
   justify-content: space-around;
   margin: 0px;
-  font-size: 18px;
+  font-size:$md-text;
+
   line-height: 30px;
   color: #0b132a;
   @include md {

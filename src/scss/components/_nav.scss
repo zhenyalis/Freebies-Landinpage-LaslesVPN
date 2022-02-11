@@ -18,12 +18,14 @@
 
   &__link {
     margin: 0 10px;
-    font-size: 16px;
+    font-size:$sm-text;
+
     line-height: 19px;
     color: #4f5665;
   }
   &__sign-in {
-    font-size: 16px;
+    font-size:$sm-text;
+
     line-height: 19px;
     margin-right: 20px;
     color: #0b132a;
@@ -35,7 +37,8 @@
     border-style: solid;
     border-radius: 50px;
     border-color: red;
-    font-size: 16px;
+    font-size:$sm-text;
+
     line-height: 19px;
     color: #f53838;
   }

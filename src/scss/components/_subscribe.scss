@@ -34,7 +34,8 @@
     @include md {
       margin-bottom: 20px;
       text-align: center;
-      font-size: 25px;
+      font-size:$xl-text;
+
     }
   }
   &__subtitle {
