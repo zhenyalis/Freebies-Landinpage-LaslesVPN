@@ -1,0 +1,15 @@
+.location {
+  margin-bottom: 80px;
+
+  &__global {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+  }
+  &__gallary {
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+  }
+}

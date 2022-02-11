@@ -1,0 +1,23 @@
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 50px;
+
+  &__title {
+    max-width: 383px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    color: #0b132a;
+  }
+
+  &__subtitle {
+    max-width: 500px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4f5665;
+  }
+}

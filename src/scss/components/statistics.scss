@@ -1,0 +1,45 @@
+.statistics {
+  display: flex;
+  margin: 85px auto;
+  padding: 72px 91px;
+  box-shadow: 0px 10px 14px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  @include md {
+    padding: 10px;
+    width: 100%;
+  }
+  @include sm {
+    margin: 40px auto;
+  }
+
+  &__details {
+    display: flex;
+    align-items: center;
+    padding-left: 90px;
+    flex-grow: 1;
+
+    @include sm {
+      padding: 10px;
+    }
+  }
+
+  &__details:not(:last-child) {
+    border-right: 2px solid #eeeff2;
+  }
+
+  &__img {
+    width: 55px;
+    height: 55px;
+    margin-right: 36px;
+  }
+
+  .statictics__content-number {
+    font-weight: 700;
+    line-height: 30px;
+  }
+
+  .statictics__content-text {
+    font-weight: 400;
+    line-height: 30px;
+  }
+}

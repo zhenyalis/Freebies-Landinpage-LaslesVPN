@@ -1,0 +1,69 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 280px;
+  @include md {
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap-reverse;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__title {
+    margin-bottom: 30px;
+    max-width: 340px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4f5665;
+    @include md {
+      justify-content: center;
+      text-align: center;
+      width: 100%;
+    }
+  }
+  &__content {
+    flex-direction: column;
+    @include md {
+      text-align: center;
+    }
+  }
+  &__logo {
+    margin-bottom: 20px;
+    @include md {
+      margin-top: 20px;
+    }
+  }
+  &__items {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.product {
+  font-size: 16px;
+  line-height: 30px;
+  color: #4f5665;
+}
+.engage {
+  margin-left: 100px;
+  font-size: 16px;
+  line-height: 30px;
+  color: #4f5665;
+}
+.earnmoney_item {
+  margin-left: 120px;
+  font-size: 16px;
+  line-height: 30px;
+  color: #4f5665;
+}
+.desc {
+  justify-content: space-around;
+  margin: 0px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #0b132a;
+  @include md {
+    justify-content: center;
+    text-align: center;
+  }
+}

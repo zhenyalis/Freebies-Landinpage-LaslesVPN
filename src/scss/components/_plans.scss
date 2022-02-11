@@ -1,0 +1,92 @@
+.plans__container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 70px;
+  flex-grow: 1;
+
+  @include md {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+}
+.plans__text {
+  text-align: center;
+  font-size: 25px;
+  line-height: 30px;
+  color: #0b132a;
+}
+.plans__card {
+  width: 330px;
+  height: 760px;
+  border-style: solid;
+  border-color: grey;
+
+  border-radius: 10px;
+  @include md {
+    margin: 5px 5px;
+  }
+}
+.plans__card-logo {
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+.plans__card-tittle {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.plans__card-items {
+  padding-left: 80px;
+  padding-bottom: 30px;
+  @include md {
+    align-items: stretch;
+    padding: 0px;
+  }
+}
+.plans__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 45px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+  line-height: 25px;
+  color: #f53838;
+  border-radius: 50px;
+  border-style: solid;
+  border-color: red;
+}
+.plans__card-activ {
+  
+  width: 330px;
+  height: 760px;
+  border-style: solid;
+  border-color: #f53838;
+
+  border-radius: 10px;
+  @include md {
+    margin: 5px 5px;
+  }
+}
+.plans__card-logo {
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 25px;
+}
+.plans__card-tittle {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.plans__card-items {
+  padding-left: 80px;
+  padding-bottom: 30px;
+  @include md {
+    
+    padding: 0px;
+  }
+}
