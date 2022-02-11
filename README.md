@@ -5,4 +5,4 @@
 - npm
 - parcel
 - SASS
-https://zhenyalis.github.io/Freebies-Landinpage-LaslesVPN/
+- https://zhenyalis.github.io/Freebies-Landinpage-LaslesVPN/
