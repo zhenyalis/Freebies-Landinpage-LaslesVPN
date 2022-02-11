@@ -6,7 +6,7 @@
 - `parcel`
 - `SASS`
 
-- Adaptation for `Iphone SE`, `Iphone XR`, `Ipad Air`
+- scss
 - Burger-menu activated at `mobile version`
 - `Flexbox`
 - `BEM`
